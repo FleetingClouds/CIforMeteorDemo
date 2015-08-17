@@ -38,4 +38,5 @@ test:
     - cat ${CIRCLE_TEST_REPORTS}/nightwatch/result.json | bunyan
     # - ${HOME}/${CIRCLE_PROJECT_REPONAME}/tests/nightwatch/runTests.js | bunyan
     - ${HOME}/${CIRCLE_PROJECT_REPONAME}/tests/tinyTests/test-all.sh
+    - eslint packages/skeleton/*.js
   #
