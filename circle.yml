@@ -25,8 +25,12 @@ dependencies:
     # Launch Meteor in background
     - ~/.meteor/meteor:
           background: true
+<<<<<<< HEAD
     # Prepare Linting dependencies
     # If linter modules are already cached, no need to build them again.
+=======
+    # Prepare Linting dependencies 
+>>>>>>> b335e9c5a3b126f78214f1a001e2f7938b6e0d9a
     - if [ ! -d ~/nvm/v0.10.33/lib/node_modules/eslint ]; then npm install -gy eslint; fi;
     - if [ ! -d ~/nvm/v0.10.33/lib/node_modules/eslint-plugin-react ]; then npm install -gy eslint-plugin-react; fi;
     - if [ ! -d ~/nvm/v0.10.33/lib/node_modules/babel-eslint ]; then npm install -gy babel-eslint; fi;
